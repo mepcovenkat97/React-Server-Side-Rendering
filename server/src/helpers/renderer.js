@@ -14,6 +14,7 @@ export default (req, store) => {
    );
    return `
       <html>
+      <meta http-equiv="Content-Security-Policy" content="font-src 'self' data:; img-src 'self' data:; default-src 'self' http://121.0.0:3000/">
          <head></head>
          <body>
             <div id="root">${content}</div>
