@@ -21,7 +21,6 @@ npm run dev
 
 3. Browse the URL __localhost:3000__ in the browser
 
-##
 
 # To Check the Server Side Rendering #
 
